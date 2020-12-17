@@ -9828,7 +9828,7 @@ prosemirror-model@^1.0.0, prosemirror-model@^1.1.0, prosemirror-model@^1.6.4:
   dependencies:
     orderedmap "^1.0.0"
 
-prosemirror-model@^1.11.2, prosemirror-model@^1.8.1:
+prosemirror-model@^1.11.2, prosemirror-model@^1.12.0, prosemirror-model@^1.8.1:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/prosemirror-model/-/prosemirror-model-1.13.0.tgz#ce5574669489fb4acfd875f7bbfa11f3a88319a2"
   integrity sha512-j5F0Wt5Me8a1qKI6xNRNET6l07tWTpXwxfcs7xTl5PWAxJGgAC+vHIuwenGZMWSE6kU2k4qr55pw5aFXlUfgVA==
