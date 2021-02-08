@@ -106,7 +106,7 @@
     "jszip-utils": "^0.0.2",
     "katex": "^0.10.0",
     "lodash": "^4.17.20",
-    "marked": "^1.1.1",
+    "marked": "^2.0.0",
     "mermaid": "^8.5.2",
     "mersenne-twister": "1.1.0",
     "minimatch": "^3.0.4",
