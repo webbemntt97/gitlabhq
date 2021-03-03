@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 6.0.3.4'
+gem 'rails', '~> 6.0.3.5'
 
 gem 'bootsnap', '~> 1.4.6'
 
@@ -105,7 +105,7 @@ gem 'hashie'
 gem 'hashie-forbidden_attributes'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
 
 # HAML
 gem 'hamlit', '~> 2.11.0'
@@ -192,7 +192,7 @@ end
 gem 'state_machines-activerecord', '~> 0.6.0'
 
 # Issue tags
-gem 'acts-as-taggable-on', '~> 6.0'
+gem 'acts-as-taggable-on', '~> 6.5', '>= 6.5.0'
 
 # Background jobs
 gem 'sidekiq', '~> 5.2.7'
@@ -294,7 +294,7 @@ gem 'terser', '1.0.2'
 gem 'addressable', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'gemojione', '~> 3.3'
-gem 'gon', '~> 6.4', '>= 6.4.0'
+gem 'gon', '~> 6.2', '>= 6.2.0'
 gem 'request_store', '~> 1.5'
 gem 'base32', '~> 0.3.0'
 
@@ -440,7 +440,7 @@ gem 'stackprof', '~> 0.2.15', require: false
 gem 'rbtrace', '~> 0.4', require: false
 gem 'memory_profiler', '~> 0.9', require: false
 gem 'benchmark-memory', '~> 0.1', require: false
-gem 'activerecord-explain-analyze', '~> 0.1', require: false
+gem 'activerecord-explain-analyze', '~> 0.1', '>= 0.1.0', require: false
 
 # OAuth
 gem 'oauth2', '~> 1.4'
