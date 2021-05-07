@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 6.0.3.4'
+gem 'rails', '~> 6.0.3.7'
 
 gem 'bootsnap', '~> 1.4.6'
 
@@ -294,7 +294,7 @@ gem 'terser', '1.0.2'
 gem 'addressable', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'gemojione', '~> 3.3'
-gem 'gon', '~> 6.4', '>= 6.4.0'
+gem 'gon', '~> 6.2', '>= 6.2.0'
 gem 'request_store', '~> 1.5'
 gem 'base32', '~> 0.3.0'
 
