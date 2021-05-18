@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 6.0.3.4'
+gem 'rails', '~> 6.0.3.3'
 
 gem 'bootsnap', '~> 1.4.6'
 
@@ -40,7 +40,7 @@ gem 'omniauth-gitlab', '~> 1.0.2'
 gem 'omniauth-google-oauth2', '~> 0.6.0'
 gem 'omniauth-kerberos', '~> 0.3.0', group: :kerberos
 gem 'omniauth-oauth2-generic', '~> 0.2.2'
-gem 'omniauth-saml', '~> 1.10'
+gem 'omniauth-saml', '~> 1.10', '>= 1.10.0'
 gem 'omniauth-shibboleth', '~> 1.3.0'
 gem 'omniauth-twitter', '~> 1.4'
 gem 'omniauth_crowd', '~> 2.4.0'
@@ -105,7 +105,7 @@ gem 'hashie'
 gem 'hashie-forbidden_attributes'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.2', '>= 1.2.1'
 
 # HAML
 gem 'hamlit', '~> 2.11.0'
@@ -115,16 +115,16 @@ gem 'carrierwave', '~> 1.3'
 gem 'mini_magick', '~> 4.10.1'
 
 # for backups
-gem 'fog-aws', '~> 3.6'
+gem 'fog-aws', '~> 3.6', '>= 3.6.7'
 # Locked until fog-google resolves https://github.com/fog/fog-google/issues/421.
 # Also see config/initializers/fog_core_patch.rb.
 gem 'fog-core', '= 2.1.0'
-gem 'fog-google', '~> 1.11'
+gem 'fog-google', '~> 1.11', '>= 1.11.0'
 gem 'fog-local', '~> 0.6'
 gem 'fog-openstack', '~> 1.0'
 gem 'fog-rackspace', '~> 0.1.1'
 gem 'fog-aliyun', '~> 0.3'
-gem 'gitlab-fog-azure-rm', '~> 1.0', require: false
+gem 'gitlab-fog-azure-rm', '~> 1.0', '>= 1.0.0', require: false
 
 # for Google storage
 gem 'google-api-client', '~> 0.33'
@@ -145,7 +145,7 @@ gem 'aws-sdk-s3', '~> 1'
 gem 'faraday_middleware-aws-sigv4', '~>0.3.0'
 
 # Markdown and HTML processing
-gem 'html-pipeline', '~> 2.12'
+gem 'html-pipeline', '~> 2.12', '>= 2.12.2'
 gem 'deckar01-task_list', '2.3.1'
 gem 'gitlab-markup', '~> 1.7.1'
 gem 'github-markup', '~> 1.7.0', require: 'github/markup'
@@ -163,7 +163,7 @@ gem 'asciidoctor-kroki', '~> 0.2.2', require: false
 gem 'rouge', '~> 3.25.0'
 gem 'truncato', '~> 0.7.11'
 gem 'bootstrap_form', '~> 4.2.0'
-gem 'nokogiri', '~> 1.10.9'
+gem 'nokogiri', '~> 1.11.4'
 gem 'escape_utils', '~> 1.1'
 
 # Calendar rendering
@@ -268,7 +268,7 @@ gem 'sanitize', '~> 5.2.1'
 gem 'babosa', '~> 1.0.2'
 
 # Sanitizes SVG input
-gem 'loofah', '~> 2.2'
+gem 'loofah', '~> 2.7', '>= 2.7.0'
 
 # Working with license
 gem 'licensee', '~> 8.9'
@@ -294,7 +294,7 @@ gem 'terser', '1.0.2'
 gem 'addressable', '~> 2.7'
 gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.5'
 gem 'gemojione', '~> 3.3'
-gem 'gon', '~> 6.4', '>= 6.4.0'
+gem 'gon', '~> 6.2', '>= 6.2.0'
 gem 'request_store', '~> 1.5'
 gem 'base32', '~> 0.3.0'
 
@@ -433,7 +433,7 @@ gem 'octokit', '~> 4.15'
 gem 'gitlab-mail_room', '~> 0.0.7', require: 'mail_room'
 
 gem 'email_reply_trimmer', '~> 0.1'
-gem 'html2text'
+gem 'html2text', '>= 0.2.0'
 
 gem 'ruby-prof', '~> 1.3.0'
 gem 'stackprof', '~> 0.2.15', require: false
