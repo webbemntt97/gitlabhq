@@ -153,7 +153,7 @@
     "vuex": "^3.5.1",
     "web-vitals": "^0.2.4",
     "webpack": "^4.42.0",
-    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-bundle-analyzer": "^4.0.0",
     "webpack-cli": "^3.3.11",
     "webpack-stats-plugin": "^0.3.1",
     "worker-loader": "^2.0.0",
